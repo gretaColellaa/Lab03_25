@@ -1,3 +1,6 @@
+from dictionary import Dictionary
+
+
 class RichWord:
     def __init__(self, parola):
         self._parola = parola # this is a string
@@ -15,3 +18,4 @@ class RichWord:
 
     def __str__(self):
         return self._parola
+
